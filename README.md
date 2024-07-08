@@ -80,7 +80,7 @@ The training dataset consists of approximately 9000 records, each containing thr
 
 ### Training Setup
 
-- **Model**: Deekseek Math Model (Causal LM with 4-bit quantization).
+- **Model**: Deepseek Math Model (Causal LM with 4-bit quantization).
 - **Training Parameters**: Batch size: 1, Gradient accumulation steps: 4, Epochs: 1, Learning rate: 1e-4, Optimizer: Paged AdamW 8-bit, Scheduler: Cosine, Warmup ratio: 0.01.
 - **Training**: Define parameters, use weights and biases for tracking and train the model
 
